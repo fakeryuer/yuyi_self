@@ -45,13 +45,13 @@ class MyHTMLParser(HTMLParser):
         if data.count('\n') == 0:
             self.data.append(data)
 
-
-with open('./20010984.txt', encoding='utf-8') as f:
-    html = f.read()
+if __name__ == '__main__':
+    with open('./20010984.txt', encoding='utf-8') as f:
+        html = f.read()
     # 方法1
     # html = strip_tags(html)
     # print(html)
     # 方法2
     parser = MyHTMLParser()
     parser.feed(html)
-    print(parser.data)
+    # print(parser.data)
