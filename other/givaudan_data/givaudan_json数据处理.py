@@ -9,7 +9,7 @@
 Created for: 
 """
 
-import json, os, sys
+import json
 from pprint import pprint
 
 data_file = r'E:\Jupyter_yuyi\Panel Qaire_Product Test - CN\json\Json_result.json'

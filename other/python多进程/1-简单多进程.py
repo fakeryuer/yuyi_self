@@ -13,8 +13,10 @@ Created for:
 '''
 import multiprocessing as mp
 
+
 def f(a):
-    print(a)
+  print(a)
+
 
 if __name__ == '__main__':
     # 这里有三个任务，手动指定3个进程

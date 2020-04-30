@@ -9,10 +9,9 @@
 Created for: 
 """
 
+import queue
 from multiprocessing import freeze_support
 from multiprocessing.managers import BaseManager
-
-import queue
 
 # 任务个数
 task_num = 10
